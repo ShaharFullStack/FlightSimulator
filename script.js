@@ -82,7 +82,7 @@ loader.load(
     airplane.rotation.set(0, Math.PI, 0);
     airplane.rotation.z = 0;
     airplane.rotation.y = Math.PI;
-    airplane.position.set(0, 0, 0);
+    airplane.position.set(0, 1.33, 0);
     
     scene.add(airplane);
     player.add(airplane);
